@@ -29,9 +29,22 @@
 		451325DF2E4BB56700DB4D24 /* TextScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		45B6897C2E4BC56000E0BF09 /* Exceptions for "TextScanner" folder in "TextScanner" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 451325C72E4BB56600DB4D24 /* TextScanner */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		451325CA2E4BB56600DB4D24 /* TextScanner */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				45B6897C2E4BC56000E0BF09 /* Exceptions for "TextScanner" folder in "TextScanner" target */,
+			);
 			path = TextScanner;
 			sourceTree = "<group>";
 		};
@@ -400,6 +413,9 @@
 				DEVELOPMENT_TEAM = P8JPB665TC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextScanner/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Need calendar access to add events from scanned text.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to capture images for text recognition.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +444,9 @@
 				DEVELOPMENT_TEAM = P8JPB665TC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextScanner/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Need calendar access to add events from scanned text.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to capture images for text recognition.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
